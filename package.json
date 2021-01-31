@@ -24,7 +24,7 @@
   "homepage": "https://github.com/profandrew/sen-web#readme",
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ladda": "^1.0.5",
     "serve": "^11.1.0"
   }
