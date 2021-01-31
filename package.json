@@ -1,0 +1,31 @@
+{
+  "name": "sen-web",
+  "version": "1.0.0",
+  "description": "Sistema de gerenciamento academico",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/profandrew/sen-web.git"
+  },
+  "keywords": [
+    "gerenciamento",
+    "academico",
+    "alunos",
+    "escola"
+  ],
+  "author": "Andrew Ribeiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/profandrew/sen-web/issues"
+  },
+  "homepage": "https://github.com/profandrew/sen-web#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "ladda": "^1.0.5",
+    "serve": "^11.1.0"
+  }
+}
