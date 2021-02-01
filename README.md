@@ -1,6 +1,12 @@
 <h1>Sistema Escolar Novo</h1>
-<img src="img/ScreenS-cadAluno.PNG" style="float: left; width: 50%;">
-<img src="img/ScreenS-homeSEN.PNG" style="float: right; width: 50%;">
+<div style="width: 50%; display: inline-block;">
+	<img src="img/ScreenS-homeSEN.PNG">
+	<span>Homepage</span>
+</div>
+<div style="width: 50%; display: inline-block;">
+	<img src="img/ScreenS-cadAluno.PNG"">
+	<span>Page of ALuno</span>
+</div>
 
 <hr><br>
 <h2>About</h2>
