@@ -1,7 +1,6 @@
 <h1>Sistema Escolar Novo</h1>
-<hr><br>
-<img src="img/ScreenS-cadAluno.PNG">
-<img src="img/ScreenS-homeSEN.PNG">
+<img src="img/ScreenS-cadAluno.PNG" style="float: left; width: 50%;">
+<img src="img/ScreenS-homeSEN.PNG" style="float: right; width: 50%;">
 
 <hr><br>
 <h2>About</h2>
