@@ -4,11 +4,11 @@
 </head>
 <body>
 	<h1>Sistema Escolar Novo</h1>
-<div style="display: inline-block;"">
-	<div style="height: 50%;>
+<div style="display: inline-block;">
+	<div style="height: 50%;">
 		<img src="img/ScreenS-homeSEN.PNG">
 	</div>
-	<div style="height: 50%;>
+	<div style="height: 50%;">
 		<img src="img/ScreenS-cadAluno.PNG">
 	</div>
 </div>
