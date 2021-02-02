@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<style type="text/css">
+h1 {font-family: monospace;}
+	</style>
 </head>
 <body>
 	<h1>Sistema Escolar Novo</h1>
-	<div style="height: 50%; display: inline-block;">
+	<div style="height: 50%; width: 50%; display: inline-block;">
 			<img src="img/ScreenS-homeSEN.PNG">
 	</div>
-	<div style="height: 50%; display: inline-block;">
+	<div style="height: 50%; width: 50%; display: inline-block;">
 			<img src="img/ScreenS-cadAluno.PNG"">
 	</div>
 
