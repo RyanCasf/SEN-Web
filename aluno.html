@@ -9,80 +9,79 @@
     <link rel="stylesheet" href="node_modules/ladda/dist/ladda-themeless.min.css"/>
 </head>
 <body>
-    <body>
-            <nav class="navbar navbar-expanded-lg navbar-dark bg-dark">
-                    <a href="index.html" class="navbar-brand">SEN</a>
-                    <button class="navbar-toggler" type="button" data-target="#menu" data-toggle="collapse">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    
-                    <div class="collapse navbar-collapse" id="menu">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item"> <a href="" class="nav-link">INÍCIO</a> </li>
-                            <li class="nav-item dropdown"> <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">CADASTROS</a>
-                                <div class="dropdown-menu bg-dark">
-                                    <a href="aluno.html" class="dropdown-item text-white">Aluno</a>
-                                    <a href="professor.html" class="dropdown-item text-white">Professor</a>
-                                </div> 
-                            </li>
-                        </ul>
+    <nav class="navbar navbar-expanded-lg navbar-dark bg-dark">
+        <a href="index.html" class="navbar-brand">SEN</a>
+        <button class="navbar-toggler" type="button" data-target="#menu" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"> <a href="" class="nav-link">INÍCIO</a> </li>
+                <li class="nav-item dropdown"> <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">CADASTROS</a>
+                    <div class="dropdown-menu bg-dark">
+                        <a href="aluno.html" class="dropdown-item text-black">Aluno</a>
+                        <a href="professor.html" class="dropdown-item text-black">Professor</a>
+                    </div> 
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="jumbotron">
+        <h4 class="display-4">Cadastro de Aluno(a)</h4>
+        
+        <p class="lead">
+            Cadastre novos alunos(as) para realizarem a matrícula.
+        </p>
+    </div>
+
+    <div class="container-fluid">
+        <form id="formAluno" action="" autocomplete="off">
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="form-group">
+                            <input class="form-control" type="text" name="nomeAluno" placeholder="Qual o nome do(a) aluno(a)?">
+                        </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="rgAnluno" placeholder="Qual o RG do(a) aluno(a)?">
                     </div>
-            </nav>
-            
-            <div class="jumbotron">
-                <h4 class="display-4">Cadastro de Aluno</h4>
-                
-                <p class="lead">
-                    Cadastre novos negos(as) para realizarem a matrícula.
-                </p>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="celAluon" placeholder="Qual o celular do(a) aluno(a)">
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group">
+                        <input class="form-control" type="date" name="dataNascimentoAluno" placeholder="Qual a data de nascimento do(a) aluno(a)?">
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group">
+                        <input class="form-control" type="email" name="emailAluno" placeholder="Qual o email do(a) aluno(a)?">
+                    </div>
+                </div>
+
+                <div class="col-12 d-flex justify-content-center">
+                    <button class="btn btn-primary fim" type="submit">Salvar</button>
+                </div>
             </div>
-
-            <div class="container-fluid">
-                <form id="formAluno" action="" autocomplete="off">
-
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                                <div class="form-group">
-                                    <input class="form-control" type="text" name="nomeAluno" placeholder="Qual o nome do(a) aluno(a)?">
-                                </div>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <div class="form-group">
-                                <input class="form-control" type="text" name="rgAnluno" placeholder="Qual o RG do(a) aluno(a)?">
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <div class="form-group">
-                                <input class="form-control" type="text" name="celAluon" placeholder="Qual o celular do(a) aluno(a)">
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <div class="form-group">
-                                <input class="form-control" type="date" name="dataNascimentoAluno" placeholder="Qual a data de nascimento do(a) aluno(a)?">
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <div class="form-group">
-                                <input class="form-control" type="email" name="emailAluno" placeholder="Qual o email do(a) aluno(a)?">
-                            </div>
-                        </div>
-
-                        <div class="col-12 d-flex justify-content-center">
-                            <button class="btn btn-primary fim" type="submit">Salvar</button>
-                        </div>
-                    </div>
-                </form>
-            </div>        
-    </body>
-    </html>
+        </form>
+    </div>        
 </body>
+
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="node_modules/ladda/dist/spin.min.js"></script>
     <script src="node_modules/ladda/dist/ladda.min.js"></script>
     <script src="aluno.js"></script>
+
 </html>
